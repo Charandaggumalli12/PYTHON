@@ -1,0 +1,9 @@
+a=["charan","cherry"]
+mark=[[20,30,40],[20,50,70]]
+per=[]
+for i in mark:
+    d=sum(i)//4
+    per.append(d)
+for i in range(2):
+    print("{}.{}:{}%".format(i+1,a[i],per[i]))
+    
